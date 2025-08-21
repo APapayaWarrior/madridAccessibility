@@ -1,0 +1,3 @@
+centrosEducativos_noUniversitarios.csv -> https://datos.comunidad.madrid/catalogos/#/dataset/centros_educativos/?view=export
+
+universidadesMadrid.csv -> https://datos.madrid.es/sites/v/index.jsp?vgnextoid=6ad94560b3104410VgnVCM1000000b205a0aRCRD&vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD

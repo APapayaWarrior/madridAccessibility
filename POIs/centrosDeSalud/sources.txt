@@ -1,0 +1,3 @@
+establecimientosSanitarios.csv -> https://datos.comunidad.madrid/catalogos/#/dataset/centros_servicios_establecimientos_sanitarios?view=info
+
+registroCentros.csv -> https://datos.comunidad.madrid/catalogos/#/dataset/atencion_social_registro_centros?view=info

@@ -1,0 +1,3 @@
+templosCatolicos_ayuntamientoMadrid -> https://datos.madrid.es/sites/v/index.jsp?vgnextoid=51fd5bd366c29410VgnVCM2000000c205a0aRCRD&vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD
+
+templosNoCatolicos_ayuntamientoMadrid -> https://datos.madrid.es/sites/v/index.jsp?vgnextoid=adf87c7697c29410VgnVCM2000000c205a0aRCRD&vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD

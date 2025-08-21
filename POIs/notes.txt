@@ -1,0 +1,3 @@
+The encoding for files from the open data portals of both the comunidad de madrid and the ayuntamiento de madrid tends to be either 'UTF-8' or 'ISO-8859-1' (aliased 'latin' in pandas).
+
+The CRS for comunidad de madrid files is 'EPSG:32630'. CRS for ayuntamiento de madrid is also 'EPSG:32630' except when given as Lat, Long in which case it is 'EPSG:4326'
