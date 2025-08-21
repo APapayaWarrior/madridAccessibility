@@ -1,2 +1,5 @@
 .directory
 *.qgz
+rawEurostat/
+populationData/eurostat2021_censusGRID/
+populationData/Eurostat_Census-GRID_2021_V2.2.zip
