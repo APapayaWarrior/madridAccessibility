@@ -36,6 +36,8 @@ def main(municipioOrigen):
     pointOrigins =gpd.read_file(f'../muni2024/madridMetroArea/{municipioOrigen}.gpkg').rename({'GRD_ID' : 'id'}, axis=1)
     pointOrigins = pointOrigins.to_crs('EPSG:3035')
 
+    pointOrigins['snapped_geometry'] = transport_network.snap_to_network(pointOrigins["geometry"])
+
     pointDestinations = gpd.read_file('../POIs/educacion/cleaned/centrosEducativos_secundaria.geojson').rename({'centro_codigo' : 'id'}, axis=1)
     pointDestinations = pointDestinations.to_crs('EPSG:3035')
 
