@@ -8,7 +8,7 @@ from os.path import join
 import r5py
 from r5py import TransportMode
 
-DEST = 'bibliotecas'
+DEST = 'universidades'
 
 def definingOrigin():
     municipioOrigen = 0
@@ -47,7 +47,7 @@ def main(municipioOrigen):
         pointDestinations = gpd.read_file('../POIs/bibliotecas/cleaned/bibliotecasTodo.geojson').rename({'PK' : 'id'}, axis=1)
         pointDestinations = pointDestinations.to_crs('EPSG:3035')
     elif DEST == 'universidades':
-        pointDestinations = gpd.read_file('../POIs/educacion/cleaned/centrosEducativos_universidades.geojson').rename({'centro_codigo' : 'id'}, axis=1)
+        pointDestinations = gpd.read_file('../POIs/educacion/cleaned/centrosEducativos_universidades.geojson').rename({'centro_cod' : 'id'}, axis=1)
         pointDestinations = pointDestinations.to_crs('EPSG:3035')
 
 
